@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/studentName"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Name" />
+
+    <TextView
+        android:id="@+id/studentRollNumber"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/studentName"
+        android:layout_alignBottom="@+id/studentName"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="58dp"
+        android:layout_marginBottom="38dp"
+        android:layout_toEndOf="@+id/studentName"
+        android:text="1212"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/studentSubject"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/studentRollNumber"
+        android:layout_alignStart="@+id/studentRollNumber"
+        android:layout_alignEnd="@+id/studentRollNumber"
+        android:layout_marginStart="-1dp"
+        android:layout_marginTop="-20dp"
+        android:layout_marginEnd="-8dp"
+        android:text="english" />
+
+</RelativeLayout>

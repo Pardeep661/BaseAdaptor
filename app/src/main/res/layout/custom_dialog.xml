@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_marginStart="@dimen/dp_20"
+    android:layout_marginEnd="@dimen/dp_20"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/cd_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_20"
+        android:padding="@dimen/dp_20"
+        android:hint="Enter name"/>
+    <EditText
+        android:id="@+id/cd_rollNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/dp_20"
+        android:layout_marginTop="@dimen/dp_20"
+        android:inputType="number"
+        android:hint="Enter Roll Number"/>
+    <EditText
+        android:id="@+id/cd_Subject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_20"
+        android:padding="@dimen/dp_20"
+        android:hint="Enter Subject"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/cd_button"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:text="Add"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
